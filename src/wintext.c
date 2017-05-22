@@ -207,7 +207,7 @@ row_padding(int i, int e)
 {
   // may look nicer; used to break box characters; for background discussion,
   // see https://github.com/mintty/mintty/issues/631#issuecomment-279690468
-  static bool allow_add_font_padding = true;
+  static bool allow_add_font_padding = false;
 
   if (i == 0 && e == 0)
     if (allow_add_font_padding)
